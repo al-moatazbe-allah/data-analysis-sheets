@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv("energy_usage.csv")
+df = pd.read_csv("Factory_data.csv")
 
 # Convert timestamp
 df['timestamp'] = pd.to_datetime(df['timestamp'])
