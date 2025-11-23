@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 #read data 
 #show data details 
-data=pd.read_csv("D:\\courses\\data.csv",names=["population","profit"])
+data=pd.read_csv("data.csv",names=["population","profit"])
 print(data)
 print('data = \n' ,data.head(10) ) 
 print('**************************************') 
